@@ -46,9 +46,9 @@ class Torneo:
             Sexo = input()
             print('Ingrese el disp1')
             Disp1 = input()
-            print('Ingrese un disp2')
+            print('Ingrese el disp2')
             Disp2 = input()
-            print('Ingrese un disp3')
+            print('Ingrese el disp3')
             Disp3 = input()
             print('Ingrese un MejorDisparo')
             MejorDisparo = input()
@@ -61,7 +61,7 @@ class Torneo:
                             
     def cantidad_participantes(self):
         filas = session.query(func.count(Participantes.id)).select_from(Participantes).scalar()
-        print ('Cantidad de participntes:',filas)
+        print ('Cantidad de participantes:',filas)
 
     def promedio_disparos(self):
         filas = session.query(func.avg(Participantes.PromDisp)).scalar()

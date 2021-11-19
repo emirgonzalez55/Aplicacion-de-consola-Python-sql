@@ -21,9 +21,9 @@ Menu Torneo
 1 Mostrar participantes
 2 Agregar participantes
 3 Mostrar el top 3
-4 Promedio de todos los diparos
-5 Catidad de participantes
-6 Participante ordenados por edad 
+4 Promedio de todos los disparos
+5 Cantidad de participantes
+6 Participantes ordenados por edad 
 7 Salir
 """)
 
