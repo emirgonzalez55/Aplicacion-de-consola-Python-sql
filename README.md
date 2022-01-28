@@ -2,6 +2,7 @@
 Esta aplicacion de consola permite acceso a una base de datos de un torneo.<br>
 
 Versión actual V2.02BETA<br>
+
 Actualización V2.02BETA<br>
 -Corrección de errores.<br>
 -Mejoras visuales.<br>
