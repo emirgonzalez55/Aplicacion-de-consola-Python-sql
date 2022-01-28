@@ -7,7 +7,7 @@ Actualización V2.02BETA<br>
 -Corrección de errores.<br>
 -Mejoras visuales.<br>
 
-Versiones anteriores.
+Versiones anteriores.<br>
 Versión V2.01BETA<br>
 -Correcciones visuales<br>
 
