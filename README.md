@@ -8,7 +8,6 @@ Actualización V2.02BETA<br>
 -Mejoras visuales.<br>
 
 Versiones anteriores.
-
 Versión V2.01BETA<br>
 -Correcciones visuales<br>
 
