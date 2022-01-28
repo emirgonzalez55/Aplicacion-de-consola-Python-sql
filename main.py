@@ -35,7 +35,7 @@ Menu Torneo
             if accion:
                 accion()
             else:
-                print("{0} no es una elección válida".format(eleccion))
+                print("{0} No es una elección válida".format(eleccion))
 
     
 
