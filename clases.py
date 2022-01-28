@@ -25,7 +25,7 @@ class Participantes(Base):
      PromDisp = Column(Integer)
 
      def __repr__(self):
-        return "id='%s',Nombre='%s', Apellido='%s', Edad='%s', Sexo='%s', Disp1='%s', Disp2='%s', Disp3='%s', MejorDisparo='%s', PromDisp='%s'\n" % (
+        return "\n|ID:%s| Nombre: %s | Apellido: %s | Edad: %s | Sexo: %s | Disp1: %s | Disp2: %s | Disp3: %s | MejorDisparo: %s | PromDisp: %s\n" % (
                              self.id, self.Nombre, self.Apellido, self.Edad, self.Sexo, self.Disp1, self.Disp2, self.Disp3, self.MejorDisparo, self.PromDisp) 
 
 Base.metadata.create_all(engine)    
@@ -33,7 +33,7 @@ Base.metadata.create_all(engine)
 class Torneo:
     def mostrar_participantes(self):
     	self.filas = session.query(Participantes).all()
-    	print(self.filas)
+    	print("Ṕarticipantes\n",self.filas)
 
     def participantes(self):
             print('Ingrese un nombre')
@@ -57,7 +57,7 @@ class Torneo:
             nuevo_participante = Participantes(Nombre=Nombre, Apellido=Apellido, Edad=Edad, Sexo=Sexo, Disp1=Disp1, Disp2=Disp2, Disp3=Disp3, MejorDisparo=MejorDisparo, PromDisp=PromDisp )
             session.add(nuevo_participante)
             session.commit()
-            print('Participante agregado!')
+            print('¡Participante agregado!')
                             
     def cantidad_participantes(self):
         filas = session.query(func.count(Participantes.id)).select_from(Participantes).scalar()
